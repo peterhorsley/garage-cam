@@ -1,0 +1,5 @@
+#!/bin/bash
+while true
+do
+	cvlc --no-autoscale --zoom=0.6 --video-title=Garage --play-and-exit rtsp://192.168.1.10:8554/garage
+done
