@@ -9,7 +9,7 @@ controller_url = "http://192.168.1.94/jc"
 
 win_name = 'Garage Cam'
 cv2.namedWindow(win_name, flags=cv2.WINDOW_GUI_NORMAL|cv2.WINDOW_AUTOSIZE)
-cv2.moveWindow(win_name, 1580, 170)
+cv2.moveWindow(win_name, 1580, 190)
 fixed_width = 390
 
 running = True
